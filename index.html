@@ -14,10 +14,10 @@
         <div class="qr-header">
             <h1>Generate QR Code</h1>
 
-            <input type="text" placeholder="type your text or URL">
+            <input type="text" placeholder="type your text or URL" id="qr-text">
 
             <div>
-                <label for="sizes">Select Size:</label>
+                <label for="sizes" id="sizes">Select Size:</label>
 
                 <select id="sizes">
                     <option value="100">100*100</option>
@@ -35,8 +35,8 @@
         </div>
         <div class="qr-body"></div>
         <div class="qr-footer">
-            <a href="">Generate</a>
-            <a href="">Download</a>
+            <a href="" id="generateBtn">Generate</a>
+            <a href="" id="downloadBtn">Download</a>
         </div>
 
 
