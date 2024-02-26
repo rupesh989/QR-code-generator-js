@@ -1,9 +1,10 @@
 :root {
   --bcg-color: #001122;
   --primary-color: #155e75;
+
+  --secondary-color: #fff;
   --border-radius: 8px;
   --border-color: #7fb7c9;
-  --secondary-color: #fff;
 }
 
 * {
